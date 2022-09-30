@@ -1,0 +1,110 @@
+.global_hover:hover{
+    cursor: pointer
+}
+.global_input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    border-radius: 0;
+    background-color: rgb(230, 230, 230);
+}
+.global_button{
+    width: 440px;
+    background-color: #1976d2;
+    border: 0;
+    height: 60px;
+    color: white;
+    font-weight: 600;
+}
+.global_button_disabled{
+    width: 440px;
+    background-color: #1976d277;
+    border: 0;
+    height: 60px;
+    color: white;
+    font-weight: 600;
+}
+.global_button_disabled:hover{
+    cursor: not-allowed;
+}
+
+.screen1_parent_div{
+    height: 440px;
+    width: 100%;
+    background-color: #1976d2;
+    transform: scaleX(1.4);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; 
+}
+.who_for_parent{
+    top: 40%;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 130px;
+    height: auto;
+    
+}
+.containerr {
+    display: grid;
+    grid-template-columns: minmax(50%, 50%) minmax(50%, 50%);
+    grid-column-gap: 30px;
+}
+@media  (max-width:800px){
+   .containerr {
+    display: inline-table;
+    grid-template-columns: minmax(50%, 50%) minmax(50%, 50%);
+    grid-column-gap: 0px;
+
+   }.right-div{
+    margin-top: 400px;
+}
+
+}
+
+.inner_card_div{
+    background-color: #1976d2;
+    height: 190px;
+    width: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.outer_container_card{
+    width:360px;
+    height:340px;
+    border:1px solid grey;
+    background-color: #ffffff;
+}
+.outer_container_card:hover{
+    width:360px;
+    height:340px;
+    border:1px solid grey;
+    background-color: #ffffff;
+    transform: scale(1.02);
+    transition-duration: 200ms;
+}
+/* chunk2 */
+.screen_1_lets_get_to_know_parent{
+    width: 600px;
+    height: 370px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    margin-top: -20px;
+}
+.term_policies_dis{
+    margin-bottom: 0;
+}
+.term_policies{
+    margin-top: -10;
+    font-weight: bold;
+}

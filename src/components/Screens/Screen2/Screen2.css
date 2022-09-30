@@ -1,0 +1,326 @@
+.screen2_navbar{
+    box-shadow: 1px 0px 2px 2px rgba(0, 0, 0, 0.116);
+    height: 55px;
+}
+.screen_2_body{
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.151);
+    display: block;
+}
+
+.screen_2_body_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    align-content: flex-start;
+    
+}
+/* .screen_2_body2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+.screen_2_body2_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    align-content: flex-start;  
+} */
+.screen2_upload_section{
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.445);
+    display: flex;
+}
+.screen2_upload_section, .list_style{
+    border-radius: 25px;
+    width: 500px;
+}
+
+
+.custom-file-input {
+    color: transparent;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Upload Photos';
+    color: black;
+    display: inline-block;
+    padding: 5px 8px;
+    outline: none;
+    cursor: pointer;
+    font-size: 11pt;
+    width: 100%;
+  }
+  .add_more_imgs{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/plus-512.png");
+    background-size: cover;
+   transition-duration: 0.2s;
+  }
+  .add_more_imgs:hover{
+  transform: scale(1.09);
+  transition-duration: 0.2s;
+  }
+.custom-file-input2 {
+    color: transparent;
+    width: 30px;
+  }
+  .custom-file-input2::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input2::before {
+    content: '';
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 11pt;
+    width: 0px;
+  }
+
+
+
+ .section_2_img_frame{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #ccc;
+    background: #eee;
+    border: 20px #F7F7F7 solid;
+    z-index: 10;
+ }
+ .reactEasyCrop_Container {
+  position: fixed !important;
+  margin: 68px 40px 40px 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reactEasyCrop_CropArea {
+  height: 320px !important;
+  width: 300px !important;
+}
+
+.section_2_img_frame2{
+    width: auto;
+    height: 100%;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    border: 20px #F7F7F7 solid;
+    overflow: hidden;
+}
+  .btn-remove{
+    border: 0;
+    background-color: transparent;
+    margin-left: -30px
+  }
+.screen_2_editing_section{
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 300px;
+  align-items: center;
+}
+
+.screen_2_select_filter_div{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 600px;
+  height: 190px;
+  border-radius: 14px;
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.205);
+  background-color: white;
+  z-index: 2;
+}
+.screen_2_select_filter_div .img_filter{
+  height: 70px;
+  width: 70px;
+  background-color: grey;
+
+  
+}
+.screen_2_select_filter_div .scroll_x{
+  overflow-x: scroll;
+  
+}
+ ::-webkit-scrollbar {
+  width: 2px;
+  height: 7px;
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  padding: -20px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #747474; 
+  border-radius: 10px;
+  cursor: grab;
+
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #747474b2; 
+}
+
+.screen_2_select_size_div {
+  position: absolute;
+  bottom: 13%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 900px;
+  border-radius: 14px;
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.205);
+  background-color: white;
+}
+.add_more_imgs{
+  background-color: #ffffff;
+  right: 5%;
+  position: absolute;
+  border-radius: 100%;
+  bottom: 15%;
+  color: #1976d2;
+  border: 0;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.185);
+  padding: 10px;
+
+}
+.checkOut_bar{
+  position: absolute;
+  bottom: 0%;
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 10px 0 5px 1px rgba(0, 0, 0, 0.219);
+}
+.checkOut_btn{
+  background-color: #1976d2;
+  width: 20%;
+  height: 65%;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 9px;
+  border: 0;
+  z-index: -1;
+}
+
+.check_out_list_parent{
+  margin-top: 35px;
+}
+.check_out_list_parent .list_check_out{
+  list-style: none;
+  font-weight: 600;
+  color: #1976d2;
+  font-size: 17px;
+  padding-left: 13px;
+}
+
+.add_address_popup{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.205);
+  height: auto;
+  width: 600px;
+  background-color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  
+}
+.address_form{
+  background-color:#7474741a ;
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  border-radius: 15px;
+  margin-bottom: 18px;
+}
+.address_form input{
+  float: right;
+  height: 52px;
+  width: 77%;
+  margin-top: -14px;
+  background-color: transparent;
+  border: 0 ;
+}
+.address_form input:focus  {
+  outline: none !important;
+  font-size: large;
+
+}
+.address_form span{
+  padding-top: 20px;
+}
+
+
+/* Addpayment popup */
+
+.add_payment_popup_parent{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.205);
+  height: auto;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.credit_card_popup_parent{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.205);
+  height: 400px;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
